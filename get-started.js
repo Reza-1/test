@@ -32,10 +32,10 @@ function updateLabel() {
   label.textContent = addend1 + ' + ' + addend2 + ' = ' + sum;
 }
 function getNumber1() {
-  return inputs[0].value;
+  return parseInt(inputs[0].value);
 }
 function getNumber2() {
-  return inputs[1].value;
+  return parseInt(inputs[1].value);
 }
 var inputs = document.querySelectorAll('input');
 var label = document.querySelector('p');
