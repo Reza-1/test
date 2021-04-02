@@ -30,6 +30,7 @@ function updateLabel() {
   const addend2 = getNumber2();
   const sum = addend1 + addend2;
   label.textContent = (`The sum of ${addend1} and ${addend2} is ${sum}`);
+  
 }
 function getNumber1() {
   return inputs[0].value;
